@@ -198,6 +198,9 @@
     "mustache": {
       "iconPath": "./icons/file_type_mustache@2x.png"
     },
+    "nginx": {
+      "iconPath": "./icons/file_type_nginx.svg"
+    },
     "node": {
       "iconPath": "./icons/file_type_node@2x.png"
     },
@@ -218,6 +221,9 @@
     },
     "procfile": {
       "iconPath": "./icons/file_type_procfile.svg"
+    },
+    "prettier": {
+      "iconPath": "./icons/file_type_prettier.svg"
     },
     "psd": {
       "iconPath": "./icons/file_type_psd@2x.png"
@@ -550,13 +556,21 @@
   },
   "fileNames": {
     ".babelrc": "babel",
-    ".eslintrc": "eslint",
     ".eslintrc.js": "eslint",
     ".eslintrc.json": "eslint",
     ".eslintrc.yaml": "eslint",
     ".eslintrc.yml": "eslint",
+    ".eslintrc": "eslint",
     ".jade-lint.json": "pug",
     ".nvmrc": "settings",
+    ".prettierrc.cjs": "prettier",
+    ".prettierrc.js": "prettier",
+    ".prettierrc.json": "prettier",
+    ".prettierrc.json5": "prettier",
+    ".prettierrc.toml": "prettier",
+    ".prettierrc.yaml": "prettier",
+    ".prettierrc.yml": "prettier",
+    ".prettierrc": "prettier",
     ".pug-lintrc.js": "pug",
     ".pug-lintrc.json": "pug",
     ".travis.yml": "settings",
@@ -566,17 +580,20 @@
     "dockerfile": "docker",
     "dockerignore": "docker",
     "favicon.ico": "favicon",
-    "gemfile": "settings",
     "gemfile.lock": "bundler",
+    "gemfile": "settings",
     "gruntfile.js": "gruntfile",
     "gulpfile.js": "gulpfile",
     "haxelib.json": "haxe",
     "ionic.config.json": "settings",
     "ionic.project": "settings",
-    "license": "license",
     "license.md": "license",
+    "license": "license",
     "makefile": "settings",
+    "nginx.conf": "nginx",
     "package.json": "npm",
+    "prettier.config.cjs": "prettier",
+    "prettier.config.js": "prettier",
     "Procfile": "procfile",
     "rollup.config.js": "rollup",
     "vagrantfile": "settings",
